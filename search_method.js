@@ -20,5 +20,17 @@ const products = [
 const users = ["Rahat", "Karim", "Sumi", "Abir", "Sumi", "Jamil", "Sumi"];
 console.log(users.indexOf('Sumi'));
 console.log(users.lastIndexOf("Sumi"));
+
+// solution 1 output
 // 2
 // 6
+
+// Solution 2
+const users2 = ["Rahat", "Karim", "Sumi", "Abir", "Sumi", "Jamil", "Sumi"];
+console.log(users2.includes("Karim"));
+console.log(users2.includes("Rakib"));
+
+// Solution 2 output
+// True
+// False
+
