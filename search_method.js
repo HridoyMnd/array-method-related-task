@@ -53,3 +53,10 @@ console.log(AbirIndex);
 
 // Solution 4 output
 // 3
+
+// Solution 5
+const prices2= [120, 450, 990, 1500, 75, 2000];
+const aa = prices2.some((price) => price > 2000);
+
+// solution 5 output
+// false
