@@ -60,3 +60,11 @@ const aa = prices2.some((price) => price > 2000);
 
 // solution 5 output
 // false
+
+// Solution 6
+const prices3 = [120, 450, 990, 1500, 75, 2000];
+const beshiPrice = prices3.every((price) => price > 50);
+console.log(beshiPrice);
+
+// solution 6 output
+// true
