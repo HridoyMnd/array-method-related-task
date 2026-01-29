@@ -68,3 +68,13 @@ console.log(beshiPrice);
 
 // solution 6 output
 // true
+
+// Solution 7
+const products = [
+  { name: "Laptop", price: 80000 },
+  { name: "Mouse", price: 1500 },
+  { name: "Keyboard", price: 3000 }
+];
+
+const productName = products.find((product) => product.name === "Mouse");
+console.log(productName);
