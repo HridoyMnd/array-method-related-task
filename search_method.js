@@ -34,3 +34,14 @@ console.log(users2.includes("Rakib"));
 // True
 // False
 
+// Solution 3
+const prices = [120, 450, 990, 1500, 75, 2000];
+const biggestNumber = prices.find((num) => {
+  return (
+
+    num > 1000
+  )
+})
+console.log(biggestNumber);
+//Solution 3 output
+// 1500
