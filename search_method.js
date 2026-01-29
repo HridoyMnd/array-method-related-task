@@ -45,3 +45,11 @@ const biggestNumber = prices.find((num) => {
 console.log(biggestNumber);
 //Solution 3 output
 // 1500
+
+// Sotution 4
+const users3 = ["Rahat", "Karim", "Sumi", "Abir", "Sumi", "Jamil", "Sumi"];
+const AbirIndex =  users3.findIndex((num) => num === "Abir" )
+console.log(AbirIndex);
+
+// Solution 4 output
+// 3
